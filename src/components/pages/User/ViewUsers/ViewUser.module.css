@@ -1,0 +1,17 @@
+.viewUser__items__container {
+  display: flex;
+
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewUser__create__button {
+  align-self: center;
+  padding: 15px 35px;
+  border-radius: 4px;
+  background-color: #db0000;
+  color: #fff;
+  cursor: pointer;
+}

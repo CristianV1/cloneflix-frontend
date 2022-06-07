@@ -1,0 +1,94 @@
+/*CREATE USER STYLES*/
+
+.content__items__container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 90px;
+  grid-template-columns: repeat(auto-fit, 120px);
+  column-gap: 10px;
+  row-gap: 30px;
+}
+
+.content__items__container > * {
+  flex-basis: 120px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.CreateNewUserForm__container {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -45%);
+  width: 1200px;
+}
+
+.CreateNewUserForm__form {
+  border-radius: 5px;
+  background-color: #000000d3;
+  padding: 20px 50px;
+}
+
+.CreateNewUserForm__form h4 {
+  color: #fff;
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.CreateNewUserForm__form input {
+  height: 50px;
+  width: 48%;
+  margin-right: 20px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: #fff;
+  padding-left: 25px;
+  font-size: 18px;
+  background-color: #464040;
+  transition: 0.3s background;
+}
+
+.CreateNewUserForm__form input::placeholder {
+  color: rgb(204, 200, 200);
+}
+
+.CreateNewUserForm__form :not(input[type="submit"]):focus {
+  background-color: #5e5656;
+}
+
+.CreateNewUserForm__form span {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.CreateNewUserForm__form select {
+  width: 120px;
+  background-color: #464040;
+  padding: 10px;
+}
+
+.CreateNewUserForm__form input[type="submit"] {
+  background-color: #db0000;
+  cursor: pointer;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.content__available__container {
+  margin-bottom: 20px;
+}
+
+.content__available {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.errors {
+  color: #db0000;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+/*CREATE CONTENT STYLES*/

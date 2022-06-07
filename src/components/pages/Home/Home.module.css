@@ -1,0 +1,15 @@
+.home__container {
+}
+
+.home__section h4 {
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.home__items__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 240px);
+  column-gap: 10px;
+  row-gap: 30px;
+}
